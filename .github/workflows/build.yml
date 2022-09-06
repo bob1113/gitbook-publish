@@ -1,0 +1,26 @@
+name: 'demo-gitbook-publish'
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    env:
+      USER_NAME : "$GITHUB_ACTOR"
+      USER_EMAIL: "$GITHUB_ACTOR@users.noreply.github.com"
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '10.22.0'
+      - run: 
+          npm install gitbook-cli -g
+      - run:
+          gitbook init
+      - run:
+          gitbook install ./book
+      - run:
+          gitbook build ./book --output=. ./docs
+      - name: Build
+        uses: ./action

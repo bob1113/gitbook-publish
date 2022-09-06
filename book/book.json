@@ -1,0 +1,52 @@
+{
+    "plugins": [  
+      "anchor-navigation-ex", 
+      "edit-link", 
+      "copy-code-button", 
+      "theme-comscore", 
+      "ga",
+      "-sharing",
+      "-fontsettings",
+      "theme-vuejs-2",
+      "collapsible-menu",
+      "splitter",
+      "mermaid-gb3" 
+    ],
+    "pluginsConfig": {
+      "fontSettings": {
+        "theme": "night",
+        "family": "sans"
+      },
+      "theme-default": {
+        "showLevel": false
+      },
+      "anchor-navigation-ex": {
+          "showLevel": false,
+          "associatedWithSummary": false,
+          "printLog": false,
+          "multipleH1": false,
+          "mode": "float",
+          "showGoTop":true,
+          "float": {
+              "floatIcon": "fa fa-navicon",
+              "showLevelIcon": false,
+              "level1Icon": "fa fa-hand-o-right",
+              "level2Icon": "fa fa-hand-o-right",
+              "level3Icon": "fa fa-hand-o-right"
+          },
+          "pageTop": {
+              "showLevelIcon": false,
+              "level1Icon": "fa fa-hand-o-right",
+              "level2Icon": "fa fa-hand-o-right",
+              "level3Icon": "fa fa-hand-o-right"
+          }
+      },
+      "edit-link": {
+        "base": "https://github.com/bob1113/dev-note/edit/master/",
+        "label": "Edit This Page"
+      },
+      "ga": {
+        "token": ""
+      }
+    }
+}

@@ -1,0 +1,9 @@
+name: 'gitbook-publish'
+author: 'Bob Lai'
+description: 'Publish gitbook to github pages'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'book-open'  
+  color: 'blue'
