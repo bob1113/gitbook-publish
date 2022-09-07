@@ -1,6 +1,6 @@
 name: 'gitbook-publish'
 author: 'Bob Lai'
-description: 'Automatically convert markdown files into GitBook static site and publish it on github pages'
+description: 'Automatically convert markdown files into GitBook static site and publish it on GitHub pages'
 runs:
   using: 'docker'
   image: 'Dockerfile'
