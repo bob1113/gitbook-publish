@@ -2,42 +2,6 @@
 
 Automatically convert markdown files into GitBook static site and publish it on GitHub pages.
 
-<style>
-.button1 {
-    color: #d9eef7;
-    border: solid 1px #0076a3;
-    background: #027ad6;
-    display: inline-block;
-    zoom: 1;
-    *display: inline;
-    vertical-align: baseline;
-    margin: 0 2px;
-    outline: none;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    font: 14px/100% Arial, Helvetica, sans-serif;
-    padding: .5em 2em .55em;
-    text-shadow: 0 1px 1px rgb(0 0 0 / 30%);
-    -webkit-border-radius: .5em;
-    -moz-border-radius: .5em;
-    border-radius: .5em;
-    -webkit-box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
-    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
-    box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
-}
-.button1:hover {
-    background: #007ead;
-    background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
-    background: -moz-linear-gradient(top, #0095cc, #00678e);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0095cc', endColorstr='#00678e');
-}
-
-
-</style>
-<a href="https://bob1113.github.io/gitbook-publish/">
-<button class="button button1">Demo Link</button>
-</a>
 
 ## Usage
 
@@ -103,13 +67,11 @@ jobs:
 
 6. Link to the website `https://<GitHub_username>.github.io/<repo_name>/`, which is the site that your repository to be published on.
 
-## Demo Website
-
-
 
 ## License
 
 The scripts and documentation in this project are released under the [MIT License](LICENSE)
+
 
 ## Contributions
 
